@@ -7,14 +7,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-/**
- * ResponseHeaderServlet
- * <pre>
- * Describe here
- * </pre>
- *
- * @version 1.0,
- */
 
 @WebServlet(name = "responseHtmlServlet", urlPatterns = "/response-html")
 public class ResponseHtmlServlet extends HttpServlet {
